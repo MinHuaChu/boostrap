@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+$color-main:gold;
+*{
+    // border: 1px solid #000;
+}
+#logo a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    color:$color-main;
+    font-size:100px;
+    display: inline-block;
+    margin: 30px 0 10px 0;
+}
+
+.navbar{
+    // !impotant可以解決權限問題
+    background-color: white !important; 
+    border-top: 1px solid $color-main;
+    padding:30px 0;
+
+}
+
+.carousel img{
+    max-height:600px;
+    object-fit:cover;
+  }
+
+.title{
+    color: $color-main;
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+
+.row {
+    img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 1em;
+        padding: 5px 0 10px 0;
+    }
+
+    .buy-right {
+        padding-left: 0;
+        
+        div {
+            background-color:skyblue;
+            color: #fff !important;
+            text-align: left;
+            padding: 20px 20px 0 20px;
+            height: 100%;
+        }
+    }
+
+    .buy-left {
+        padding-right: 0;
+    }
+}
+
